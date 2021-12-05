@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IntentApplication</string>
+    <string name="cancel">cancel</string>
+    <string name="submit">submit</string>
+    <string name="call">call your friend</string>
+    <string name="explore">click to explore</string>
+    <string name="find">find the location</string>
+    <string name="enter_your_friend_phone_number">Enter your friend phone number</string>
+    <string name="profile">profile</string>
+    <string name="call_a_friend">call your friend</string>
+    <string name="go_to_map">go to map</string>
+    <string name="go_to_web">go to web</string>
+    <string name="enter_your_location">Enter a location</string>
+    <string name="enter_your_10digit_id_number">Enter your 10digit id number</string>
+    <string name="paste_url_or_link_here">Paste url link here</string>
+    <string name="profile_info">
+        ID NUMBER Format\n
+        ------------------------\n
+        Birthday first six digit\n
+        Male, Female, Other(1, 2, 3)\n
+        Bangladeshi, Foreigner(1,2)\n
+        Islam, Hindu, Boddha, Khristan(11,00,01,10)
+    </string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WebActivity">
+
+    <EditText
+        android:id="@+id/etweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:autoLink="web"
+        android:ems="10"
+        android:hint="@string/paste_url_or_link_here"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnexploreweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#0FA817"
+        android:text="@string/explore"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btncancelweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#DE2020"
+        android:text="@string/cancel"
+        android:textStyle="bold" />
+
+</LinearLayout>
